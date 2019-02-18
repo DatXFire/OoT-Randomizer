@@ -444,7 +444,9 @@
                     Kokiri_Emerald and Goron_Ruby and Zora_Sapphire)
                 or ((bridge == 'stones') and
                     Kokiri_Emerald and Goron_Ruby and Zora_Sapphire)
-                or ((bridge == 'tokens') and
+                or ((bridge == '100tokens') and
+                    (Gold_Skulltula_Token, 100))
+                or ((bridge == '50tokens') and
                     (Gold_Skulltula_Token, 50))"
         }
     },

@@ -41,7 +41,8 @@ RAINBOW_BRIDGE_CONDITION:
 ; 2 = Dungeons
 ; 3 = Stones
 ; 4 = Vanilla
-; 5 = Tokens
+; 5 = 100 Tokens
+; 6 = 50 Tokens
 
 GOSSIP_HINT_CONDITION:
 .word 0x00

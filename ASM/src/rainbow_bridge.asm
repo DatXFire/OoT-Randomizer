@@ -18,7 +18,11 @@ rainbow_bridge:
     li        at, 0x18 ; shadow and spirit medallions
 
     li        at, 5
-    beq       t2, at, @@rainbow_bridge_tokens
+    beq       t2, at, @@rainbow_bridge_tokens_100
+    nop
+
+    li        at, 6
+    beq       t2, at, @@rainbow_bridge_tokens_50
     nop
 
 @@rainbow_bridge_dungeons:
@@ -40,7 +44,13 @@ rainbow_bridge:
     jr        ra
     and       t2, v0, at
 
-@@rainbow_bridge_tokens:
+@@rainbow_bridge_tokens_100:
+    li        at, 0
+    lh        t7, 0xD0(a3) ; Gold Skulltulas
+    jr        ra
+    slti      t2, t7, 0x64
+
+@@rainbow_bridge_tokens_50:
     li        at, 0
     lh        t7, 0xD0(a3) ; Gold Skulltulas
     jr        ra

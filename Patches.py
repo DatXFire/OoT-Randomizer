@@ -802,8 +802,10 @@ def patch_rom(spoiler:Spoiler, world:World, rom:LocalRom):
         rom.write_int32(symbol, 3)
     elif world.bridge == 'vanilla':
         rom.write_int32(symbol, 4)
-    elif world.bridge == 'tokens':
+    elif world.bridge == '100tokens':
         rom.write_int32(symbol, 5)
+    elif world.bridge == '50tokens':
+        rom.write_int32(symbol, 6)
 
     if world.open_forest:
         write_bits_to_save(0xED5, 0x10) # "Showed Mido Sword & Shield"
