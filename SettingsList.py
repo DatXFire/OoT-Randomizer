@@ -579,7 +579,7 @@ setting_infos = [
                 'stones':	  'All Spiritual Stones',
                 'medallions': 'All Medallions',
                 'dungeons':   'All Dungeons',
-                'tokens':     '100 Gold Skulltula Tokens'
+                'tokens':     '50 Gold Skulltula Tokens'
                 },
             args_help      = '''\
                              Select requirement to spawn the Rainbow Bridge to reach Ganon's Castle. (default: %(default)s)
@@ -588,7 +588,7 @@ setting_infos = [
                              stones:     Collect all three Spiritual Stones to create the bridge.
                              medallions: Collect all six Medallions to create the bridge.
                              dungeons:   Collect all Spiritual Stones and all Medallions to create the bridge.
-                             tokens:     Collect all 100 Gold Skulltula tokens.
+                             tokens:     Collect 50 Gold Skulltula tokens.
                              ''',
             gui_text       = 'Rainbow Bridge Requirement',
             gui_group      = 'open',
@@ -598,7 +598,7 @@ setting_infos = [
                              'All Spiritual Stones': All 3 Spiritual Stones.
                              'All Medallions': All 6 Medallions.
                              'All Dungeons': All Medallions and Spiritual Stones.
-                             '100 Gold Skulltula Tokens': All 100 Gold Skulltula Tokens.
+                             '50 Gold Skulltula Tokens': 50 Gold Skulltula Tokens.
                              ''',
             shared         = True,
             ),
