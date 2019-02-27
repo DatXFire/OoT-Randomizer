@@ -681,7 +681,7 @@ setting_infos = [
             'stones':	  'All Spiritual Stones',
             'medallions': 'All Medallions',
             'dungeons':   'All Dungeons',
-            'tokens':     '100 Gold Skulltula Tokens'
+            'tokens':     '50 Gold Skulltula Tokens'
         },
         gui_text       = 'Rainbow Bridge Requirement',
         gui_group      = 'open',
@@ -691,7 +691,7 @@ setting_infos = [
             'All Spiritual Stones': All 3 Spiritual Stones.
             'All Medallions': All 6 Medallions.
             'All Dungeons': All Medallions and Spiritual Stones.
-            '100 Gold Skulltula Tokens': All 100 Gold Skulltula Tokens.
+            '50 Gold Skulltula Tokens': 50 Gold Skulltula Tokens.
         ''',
         shared         = True,
         gui_params     = {
